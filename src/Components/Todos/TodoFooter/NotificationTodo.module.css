@@ -1,0 +1,16 @@
+.notificationTodos {
+	margin-top: 35px;
+	background-color: #e8e8f3;
+	padding: 25px;
+	box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+	-7px -7px 20px rgba(255, 255, 255, 1),
+	inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+	inset 7px 7px 15px rgba(55, 84, 170, 0),
+	inset -7px -7px 20px rgba(255, 255, 255, 0),
+	0px 0px 4px rgba(255, 255, 255, 0);
+	color: #999999;
+	border-radius: 20px;
+
+	font-size: 1.4rem;
+	font-style: italic;
+}

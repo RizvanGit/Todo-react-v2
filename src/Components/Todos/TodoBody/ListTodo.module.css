@@ -1,0 +1,41 @@
+.ListTodo {
+	margin-top: 20px;
+	background-color: #e8e8f3;
+	padding: 25px;
+	box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15),
+	-7px -7px 20px rgba(255, 255, 255, 1),
+	inset 0px 0px 4px rgba(255, 255, 255, 0.2),
+	inset 7px 7px 15px rgba(55, 84, 170, 0),
+	inset -7px -7px 20px rgba(255, 255, 255, 0),
+	0px 0px 4px rgba(255, 255, 255, 0);
+	color: #999999;
+	border-radius: 20px;
+}
+
+.emptyTodo {
+	margin-top: 20px;
+	background-color: #e8e8f3;
+	padding: 25px;
+
+	box-shadow:
+			3px 3px 4px rgba(55, 84, 170, 0.15), /*1 true*/
+			inset 0 0 0 0 transparent, /*2 false*/
+			-4px -4px 10px rgba(255, 255, 255, 1), /*3 true*/
+			inset 0 0 0 0 transparent,	/*4 false */
+			inset 0px 0px 4px rgba(255, 255, 255, 0.2), /*5  false*/
+			0 0 0 0 transparent,	/*6 true*/
+			inset 1px 1px 4px rgba(55, 84, 170, 0.2), /*7 */
+			0 0 0 0 transparent, /*8 true*/
+			inset -3px -3px 4px rgba(255, 255, 255, 0.5), /*9 false*/
+			0 0 0 0 transparent, /*10 true*/
+			0px 0px 4px rgba(255, 255, 255, 0.35), /*11 true*/
+			inset 0 0 0 0 transparent;	/*12 false */
+
+	color: #999999;
+	border-radius: 20px;
+	opacity: 0.5;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 1.3rem;
+	user-select: none;
+}

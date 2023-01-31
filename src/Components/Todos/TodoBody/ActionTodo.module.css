@@ -1,0 +1,32 @@
+.ActionTodo {
+
+	margin: 20px auto 0 auto;
+}
+
+.ActionTodo button {
+	width: 50px;
+	padding: 5px;
+	height: 50px;
+	margin-right: 20px;
+	line-height: 100%;
+
+}
+.ActionTodo button:last-child{
+	margin-right: 0;
+}
+
+
+.clearCompletedTodos {
+	font-size: 1.8rem;
+
+}
+
+.clearAllTodos {
+	font-size: 1.8rem;
+
+}
+
+.ActionTodo button:hover :where(.clearCompletedTodos, .clearAllTodos) {
+	transition: transform .2s ease;
+	transform: scale(1.2);
+}
